@@ -18,7 +18,7 @@ namespace FinalTask
             }
             while (LsFile.Length < 8);
 
-            LsNewDir = LsNewDir = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/ Students/";
+            LsNewDir = LsNewDir = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/Students/";
 
             if (Directory.Exists(LsNewDir))
             {
